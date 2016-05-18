@@ -1,4 +1,4 @@
-# BBRSACryptor+XHCategory
+# BBRSACryptor+XHAdd
 
 ## 1.RSA算法2个作用:
 * 1.加密:客户端使用公钥加密数据,服务器端使用私钥解密数据(主要实现数据加密)。
@@ -22,7 +22,7 @@
 ## 3.导入步骤
 * 1.将RSALibary文件夹加入工程
 * 2.在TARGETAS-Build Settings中配置Header Search Pathes 添加文件搜索相对路径 ./RSALibary/OpenSSL/include
-* 3.导入BBRSACryptor+XHCategory.h，使用[BBRSACryptor createPublicKeyAndPrivateKey]生成公钥,私钥
+* 3.导入BBRSACryptor+XHAdd.h，使用[BBRSACryptor createPublicKeyAndPrivateKey]生成公钥,私钥
 * 4.运行后，在控制台会打印出证书路径，进入路径后，可以看到公钥证书(bb.publicKey.pem)和私钥证书(bb.privateKey.pem),将两证书拷贝到桌面.pem后缀改为.txt并打开,将—–BEGIN PUBLIC KEY—–和—–END PUBLIC KEY—–之间的部分复制，新建一个宏，来保存这个公钥(宏定义时,公钥中若有换行,记得删除),客户端仅保存公钥即可，私钥放在服务器上。
 
 ## 4.使用方法:

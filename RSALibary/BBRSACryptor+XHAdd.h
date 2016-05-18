@@ -4,7 +4,7 @@
 //
 //  Created by xiaohui on 16/5/10.
 //  Copyright © 2016年 qiantou. All rights reserved.
-//  https://github.com/CoderZhuXH/BBRSACryptor-XHCategory
+//  https://github.com/CoderZhuXH/BBRSACryptor-XHAdd
 
 
 #import "BBRSACryptor.h"
