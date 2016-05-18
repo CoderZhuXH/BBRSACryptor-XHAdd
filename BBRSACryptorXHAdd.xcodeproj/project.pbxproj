@@ -14,7 +14,7 @@
 		4B69B8101CE1E92800E832DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69B7B21CE1E92800E832DE /* ViewController.m */; };
 		4B69B8111CE1E92800E832DE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B69B7B31CE1E92800E832DE /* ViewController.xib */; };
 		4B69B8121CE1E92800E832DE /* BBRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69B7B71CE1E92800E832DE /* BBRSACryptor.m */; };
-		4B69B8131CE1E92800E832DE /* BBRSACryptor+XHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHCategory.m */; };
+		4B69B8131CE1E92800E832DE /* BBRSACryptor+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHAdd.m */; };
 		4B69B8141CE1E92800E832DE /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69B7BC1CE1E92800E832DE /* GTMBase64.m */; };
 		4B69B8151CE1E92800E832DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4B69B7C01CE1E92800E832DE /* LICENSE */; };
 		4B69B8161CE1E92800E832DE /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B69B80E1CE1E92800E832DE /* libcrypto.a */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B69B79C1CE1E89700E832DE /* BBRSACryptor+XHCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBRSACryptor+XHCategory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B69B79C1CE1E89700E832DE /* BBRSACryptorXHAdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBRSACryptorXHAdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69B7A01CE1E89700E832DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B69B7A21CE1E89700E832DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B69B7A31CE1E89700E832DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +34,8 @@
 		4B69B7B31CE1E92800E832DE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		4B69B7B61CE1E92800E832DE /* BBRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRSACryptor.h; sourceTree = "<group>"; };
 		4B69B7B71CE1E92800E832DE /* BBRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRSACryptor.m; sourceTree = "<group>"; };
-		4B69B7B81CE1E92800E832DE /* BBRSACryptor+XHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BBRSACryptor+XHCategory.h"; sourceTree = "<group>"; };
-		4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BBRSACryptor+XHCategory.m"; sourceTree = "<group>"; };
+		4B69B7B81CE1E92800E832DE /* BBRSACryptor+XHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BBRSACryptor+XHAdd.h"; sourceTree = "<group>"; };
+		4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BBRSACryptor+XHAdd.m"; sourceTree = "<group>"; };
 		4B69B7BB1CE1E92800E832DE /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		4B69B7BC1CE1E92800E832DE /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		4B69B7BD1CE1E92800E832DE /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 			children = (
 				4B69B7B01CE1E92800E832DE /* Class */,
 				4B69B7B41CE1E92800E832DE /* RSALibary */,
-				4B69B79E1CE1E89700E832DE /* BBRSACryptor+XHCategory */,
+				4B69B79E1CE1E89700E832DE /* BBRSACryptorXHAdd */,
 				4B69B79D1CE1E89700E832DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,12 +145,12 @@
 		4B69B79D1CE1E89700E832DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B69B79C1CE1E89700E832DE /* BBRSACryptor+XHCategory.app */,
+				4B69B79C1CE1E89700E832DE /* BBRSACryptorXHAdd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B69B79E1CE1E89700E832DE /* BBRSACryptor+XHCategory */ = {
+		4B69B79E1CE1E89700E832DE /* BBRSACryptorXHAdd */ = {
 			isa = PBXGroup;
 			children = (
 				4B69B7A21CE1E89700E832DE /* AppDelegate.h */,
@@ -160,7 +160,7 @@
 				4B69B7AA1CE1E89700E832DE /* Info.plist */,
 				4B69B79F1CE1E89700E832DE /* Supporting Files */,
 			);
-			path = "BBRSACryptor+XHCategory";
+			path = BBRSACryptorXHAdd;
 			sourceTree = "<group>";
 		};
 		4B69B79F1CE1E89700E832DE /* Supporting Files */ = {
@@ -184,8 +184,8 @@
 		4B69B7B41CE1E92800E832DE /* RSALibary */ = {
 			isa = PBXGroup;
 			children = (
-				4B69B7B81CE1E92800E832DE /* BBRSACryptor+XHCategory.h */,
-				4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHCategory.m */,
+				4B69B7B81CE1E92800E832DE /* BBRSACryptor+XHAdd.h */,
+				4B69B7B91CE1E92800E832DE /* BBRSACryptor+XHAdd.m */,
 				4B69B7B51CE1E92800E832DE /* BBRSACryptor */,
 				4B69B7BA1CE1E92800E832DE /* GTMBase64 */,
 				4B69B7BE1CE1E92800E832DE /* OpenSSL */,
@@ -324,9 +324,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B69B79B1CE1E89700E832DE /* BBRSACryptor+XHCategory */ = {
+		4B69B79B1CE1E89700E832DE /* BBRSACryptorXHAdd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B69B7AD1CE1E89700E832DE /* Build configuration list for PBXNativeTarget "BBRSACryptor+XHCategory" */;
+			buildConfigurationList = 4B69B7AD1CE1E89700E832DE /* Build configuration list for PBXNativeTarget "BBRSACryptorXHAdd" */;
 			buildPhases = (
 				4B69B7981CE1E89700E832DE /* Sources */,
 				4B69B7991CE1E89700E832DE /* Frameworks */,
@@ -336,9 +336,9 @@
 			);
 			dependencies = (
 			);
-			name = "BBRSACryptor+XHCategory";
+			name = BBRSACryptorXHAdd;
 			productName = "BBRSACryptor+XHCategory";
-			productReference = 4B69B79C1CE1E89700E832DE /* BBRSACryptor+XHCategory.app */;
+			productReference = 4B69B79C1CE1E89700E832DE /* BBRSACryptorXHAdd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -355,7 +355,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B69B7971CE1E89700E832DE /* Build configuration list for PBXProject "BBRSACryptor+XHCategory" */;
+			buildConfigurationList = 4B69B7971CE1E89700E832DE /* Build configuration list for PBXProject "BBRSACryptorXHAdd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -368,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B69B79B1CE1E89700E832DE /* BBRSACryptor+XHCategory */,
+				4B69B79B1CE1E89700E832DE /* BBRSACryptorXHAdd */,
 			);
 		};
 /* End PBXProject section */
@@ -394,7 +394,7 @@
 			files = (
 				4B69B8101CE1E92800E832DE /* ViewController.m in Sources */,
 				4B69B8141CE1E92800E832DE /* GTMBase64.m in Sources */,
-				4B69B8131CE1E92800E832DE /* BBRSACryptor+XHCategory.m in Sources */,
+				4B69B8131CE1E92800E832DE /* BBRSACryptor+XHAdd.m in Sources */,
 				4B69B7A41CE1E89700E832DE /* AppDelegate.m in Sources */,
 				4B69B8121CE1E92800E832DE /* BBRSACryptor.m in Sources */,
 				4B69B7A11CE1E89700E832DE /* main.m in Sources */,
@@ -502,14 +502,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				HEADER_SEARCH_PATHS = ./RSALibary/OpenSSL/include;
-				INFOPLIST_FILE = "BBRSACryptor+XHCategory/Info.plist";
+				INFOPLIST_FILE = BBRSACryptorXHAdd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RSALibary/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "qiantou.BBRSACryptor-XHCategory";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = qiantou.BBRSACryptorXHAdd;
+				PRODUCT_NAME = BBRSACryptorXHAdd;
 			};
 			name = Debug;
 		};
@@ -518,21 +518,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				HEADER_SEARCH_PATHS = ./RSALibary/OpenSSL/include;
-				INFOPLIST_FILE = "BBRSACryptor+XHCategory/Info.plist";
+				INFOPLIST_FILE = BBRSACryptorXHAdd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RSALibary/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "qiantou.BBRSACryptor-XHCategory";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = qiantou.BBRSACryptorXHAdd;
+				PRODUCT_NAME = BBRSACryptorXHAdd;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B69B7971CE1E89700E832DE /* Build configuration list for PBXProject "BBRSACryptor+XHCategory" */ = {
+		4B69B7971CE1E89700E832DE /* Build configuration list for PBXProject "BBRSACryptorXHAdd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B69B7AB1CE1E89700E832DE /* Debug */,
@@ -541,13 +541,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B69B7AD1CE1E89700E832DE /* Build configuration list for PBXNativeTarget "BBRSACryptor+XHCategory" */ = {
+		4B69B7AD1CE1E89700E832DE /* Build configuration list for PBXNativeTarget "BBRSACryptorXHAdd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B69B7AE1CE1E89700E832DE /* Debug */,
 				4B69B7AF1CE1E89700E832DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

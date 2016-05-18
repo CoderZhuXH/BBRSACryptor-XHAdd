@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  BBRSACryptor+XHCategory
+//  BBRSACryptor+XHAdd
 //
 //  Created by xiaohui on 16/5/10.
 //  Copyright © 2016年 qiantou. All rights reserved.
@@ -18,7 +18,7 @@
  */
 
 #import "ViewController.h"
-#import "BBRSACryptor+XHCategory.h"
+#import "BBRSACryptor+XHAdd.h"
 
 //公钥 (请替换)
 #define RSAPublicKey @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDE+jPXWpW0Ooo+7y8wigCQVRq+ULPHYm6UbJNGJTddzBcWilKw5xY13Fzst/sHQZQVi8Bp+P2EXZQtwnhCkU/4rTy5tdTM0BN04yT7NuMRLLSV6u0Yl+6DE01s2+nC5NIzpq+ZXDZYJSo9EmLapZbeIm4Q/1PYX/1CA/A4YBGkXQIDAQAB"
@@ -42,21 +42,95 @@
      */
     [BBRSACryptor createPublicKeyAndPrivateKey];
     
-    /**
-     *  公钥加密
-     */
-    NSString *str0 = @"123456";
-    NSString *newStr0=[BBRSACryptor encryptString:str0 publicKey:RSAPublicKey];
-    NSLog(@"\n加密后:\n%@",newStr0);
+
+    //其他接口,请查看BBRSACryptor+XHAdd.h文件
     
-    /**
-     *  公钥解密
-     */
-    NSString *str = @"rR06kVjrqJOOaYprEucj9AJSWjJwFxYS38Mc2Gc+t3CuGWO6+LgpSxULJp+dAkPa8M1rKdgJXtooL/JbEphlEvHAHWCalppG/hbE0WI1t2PS6xSpjo0hcHZeQNVvqwlLcxiSySV22aXHt1XxAL8XW6YP30gKLws3S+ZHlLbrodY=";
-    NSString *newStr=[BBRSACryptor decodingString:str publicKey:RSAPublicKey];//传入"私钥加密字符串";
-    NSLog(@"\n解密后:\n%@",newStr);
-    
-    //其他私钥加密,解密,签名,验证签名,请查看 BBRSACryptor+XHCategory.h  所提供类方法
+//    /**
+//     *  生成公钥,私钥 (生成成功后控制台会打印出 公钥,私钥 存储路径)
+//     */
+//    +(void)createPublicKeyAndPrivateKey;
+//    
+//    /**
+//     *  公钥加密
+//     *
+//     *  @param string    普通字符串
+//     *  @param publicKey 公钥
+//     *
+//     *  @return 加密后字符串
+//     */
+//    +(NSString *)encryptString:(NSString *)string publicKey:(NSString *)publicKey;
+//    
+//    /**
+//     *  公钥解密
+//     *
+//     *  @param string    私钥加密字符串
+//     *  @param publicKey 公钥
+//     *
+//     *  @return 解密后字符串
+//     */
+//    +(NSString *)decodingString:(NSString *)string publicKey:(NSString *)publicKey;
+//    
+//    /**
+//     *  私钥加密
+//     *
+//     *  @param string     普通字符串
+//     *  @param privateKey 私钥
+//     *
+//     *  @return 加密后字符串
+//     */
+//    +(NSString *)encryptString:(NSString *)string privateKey:(NSString *)privateKey;
+//    
+//    /**
+//     *  私钥解密
+//     *
+//     *  @param string     公钥加密字符串
+//     *  @param privateKey 私钥
+//     *
+//     *  @return 解密后字符串
+//     */
+//    +(NSString *)decodingString:(NSString *)string privateKey:(NSString *)privateKey;
+//    
+//    /**
+//     *  私钥签名
+//     *
+//     *  @param string     普通字符串
+//     *  @param privateKey 私钥
+//     *
+//     *  @return 签名后字符串
+//     */
+//    +(NSString *)singString:(NSString *)string privateKey:(NSString *)privateKey;
+//    
+//    /**
+//     *  私钥签名MD5
+//     *
+//     *  @param string     普通字符串
+//     *  @param privateKey 私钥
+//     *
+//     *  @return 签名后字符串
+//     */
+//    +(NSString *)singMD5String:(NSString *)string privateKey:(NSString *)privateKey;
+//    
+//    /**
+//     *  RSA sha1 验证签名
+//     *
+//     *  @param string     普通字符串
+//     *  @param signString 签名字符串(base64)
+//     *  @param publicKey  公钥
+//     *
+//     *  @return 验证结果
+//     */
+//    +(BOOL)verifyString:(NSString *)string sign:(NSString *)signString publicKey:(NSString *)publicKey;
+//    
+//    /**
+//     *  RSA MD5 验证签名
+//     *
+//     *  @param string     普通字符串
+//     *  @param signString 签名字符串
+//     *  @param publicKey  公钥
+//     *
+//     *  @return 验证结果
+//     */
+//    +(BOOL)verifyMD5String:(NSString *)string sign:(NSString *)signString publicKey:(NSString *)publicKey;
     
 }
 - (void)didReceiveMemoryWarning {

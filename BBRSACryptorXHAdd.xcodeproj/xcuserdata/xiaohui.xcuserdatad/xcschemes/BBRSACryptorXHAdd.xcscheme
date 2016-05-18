@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B69B79B1CE1E89700E832DE"
-               BuildableName = "BBRSACryptor+XHCategory.app"
-               BlueprintName = "BBRSACryptor+XHCategory"
-               ReferencedContainer = "container:BBRSACryptor+XHCategory.xcodeproj">
+               BuildableName = "BBRSACryptor-XHAdd.app"
+               BlueprintName = "BBRSACryptorXHAdd"
+               ReferencedContainer = "container:BBRSACryptorXHAdd.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B69B79B1CE1E89700E832DE"
-            BuildableName = "BBRSACryptor+XHCategory.app"
-            BlueprintName = "BBRSACryptor+XHCategory"
-            ReferencedContainer = "container:BBRSACryptor+XHCategory.xcodeproj">
+            BuildableName = "BBRSACryptor-XHAdd.app"
+            BlueprintName = "BBRSACryptorXHAdd"
+            ReferencedContainer = "container:BBRSACryptorXHAdd.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B69B79B1CE1E89700E832DE"
-            BuildableName = "BBRSACryptor+XHCategory.app"
-            BlueprintName = "BBRSACryptor+XHCategory"
-            ReferencedContainer = "container:BBRSACryptor+XHCategory.xcodeproj">
+            BuildableName = "BBRSACryptor-XHAdd.app"
+            BlueprintName = "BBRSACryptorXHAdd"
+            ReferencedContainer = "container:BBRSACryptorXHAdd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B69B79B1CE1E89700E832DE"
-            BuildableName = "BBRSACryptor+XHCategory.app"
-            BlueprintName = "BBRSACryptor+XHCategory"
-            ReferencedContainer = "container:BBRSACryptor+XHCategory.xcodeproj">
+            BuildableName = "BBRSACryptor-XHAdd.app"
+            BlueprintName = "BBRSACryptorXHAdd"
+            ReferencedContainer = "container:BBRSACryptorXHAdd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
